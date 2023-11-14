@@ -3,9 +3,10 @@
 ### [Overview]
 ![](Etc/overview.png "Overview")
 
-### [Results]
+### [Results on MS-COCO2014]
+![](Etc/results_coco.png "results")
 
-
+### [Run scripts]
 1. The code of our SpliceMix and SpliceMix-CL methods are put to ./SpliceMix.py and ./models/SpliceMix_CL.py, respectively.
 
 2. Please download data sets by yourself and follow the below structure to unzip files. Then modify 'args.data_root' to DATA_ROOT.
