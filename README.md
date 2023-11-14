@@ -50,7 +50,7 @@ b) train on VOC2007
 c) SpliceMix pre-training on ImageNet  
    The pre-training model using SpliceMix trained on ImageNet is also available at https://drive.google.com/drive/folders/1VwKrEqAYYE9m7raVMwhyza9Fwjy9slCS?usp=sharing . It can be easily loaded to ResNet in PyTorch, such as   
 ```	
- 	ResNet = torchvision.models.resnet101(pretrained=false)
+ResNet = torchvision.models.resnet101(pretrained=false)
     file = r'checkpoint/ImageNet_ResNet101_SpliceMix_te79.912_E163.pth.tar'
     ckpt = torch.load(file, map_location='cpu')
     ResNet.load_state_dict(ckpt['state_dict'])
