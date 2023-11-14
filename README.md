@@ -2,7 +2,8 @@
 
 1. The code of our SpliceMix and SpliceMix-CL methods are put to ./SpliceMix.py and ./models/SpliceMix_CL.py, respectively.
 
-2. Please download data sets by yourself and follow the below structure to unzip files. Then modify 'args.data_root' to DATA_ROOT. 
+2. Please download data sets by yourself and follow the below structure to unzip files. Then modify 'args.data_root' to DATA_ROOT.
+
     Data root structure:
         DATA_ROOT
             --COCO2014
@@ -22,7 +23,7 @@
                             --..
                 --...
 
-3. Run script:
+4. Run script:
     It is recommended to run the code by 'launch.py'.
     a.1) train on MS-COCO
          ./launch.sh -m ResNet-101 -mixer SpliceMix--Default=True -ds MS-COCO -lr .05 -wup 3 -bs 32 -cd 0 1 -P 17837 -rmk SpliceMix--Default=True
