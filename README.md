@@ -2,7 +2,9 @@
 
 1. The code of our SpliceMix and SpliceMix-CL methods are put to ./SpliceMix.py and ./models/SpliceMix_CL.py, respectively.
 
-2. Please download data sets by yourself and follow the below structure to unzip files. Then modify 'args.data_root' to DATA_ROOT.  
+2. Please download data sets by yourself and follow the below structure to unzip files. Then modify 'args.data_root' to DATA_ROOT.
+```
+{
     Data root structure:
         DATA_ROOT
             --COCO2014
@@ -21,7 +23,8 @@
                         --JPEGImages
                             --..
                 --...
-
+}
+```
 4. Run script:
     It is recommended to run the code by 'launch.py'.
     a.1) train on MS-COCO
