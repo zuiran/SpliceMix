@@ -41,8 +41,6 @@
     b) train on VOC2007  
 ```
 ./launch.sh -m ResNet-101 -mixer SpliceMix--Default=True -ds VOC2007 -lr .01 -bs 16 -cd 0 -P 17837 --disable-amp -rmk SpliceMix--Default=True
-```
-```
 ./launch.sh -m SpliceMix-CL -mixer SpliceMix--Default=True -ds VOC2007 -lr .01 -bs 16 -cd 0 -P 17837 --disable-amp -rmk SpliceMix--Default=True
 ```
     * -rmk is optional for checkpoint folder suffix.  
