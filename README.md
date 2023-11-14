@@ -1,6 +1,5 @@
 ## SpliceMix: A Cross-scale and Semantic Blending Augmentation Strategy for Multi-label Image Classification
-! [Overview](Etc/overview.png "Overview")
-<center>Overview</center>
+! [Overview] (Etc/overview.png "Overview")
 
 1. The code of our SpliceMix and SpliceMix-CL methods are put to ./SpliceMix.py and ./models/SpliceMix_CL.py, respectively.
 
