@@ -20,7 +20,7 @@
                 --VOCdevkit
                     --VOC2007
                         --JPEGImages
-                            --..
+                            --...
                 --...
 ```
 3. Run script:  
@@ -37,7 +37,9 @@
          The pre-training weight of 'ResNet-101+SpliceMix' and 'ResNet-101+SpliceMix-CL' on MS-COCO is available at 	 https://drive.google.com/drive/folders/1VwKrEqAYYE9m7raVMwhyza9Fwjy9slCS?usp=sharing.  
 	 
 ```  
-         ./launch.sh -m ResNet-101 -ds MS-COCO -bs 32 -cd 0 -e 0 -P 17837 -r checkpoint/ResNet_101_SpliceMix.pt -rmk SpliceMix  
+         ./launch.sh -m ResNet-101 -ds MS-COCO -bs 32 -cd 0 -e 0 -P 17837 -r checkpoint/ResNet_101_SpliceMix.pt -rmk SpliceMix
+```
+```
          ./launch.sh -m ResNet-101 -ds MS-COCO -bs 32 -cd 0 -e 0 -P 17837 -r checkpoint/SpliceMix_CL.pt -rmk SpliceMix  
 ```
     b) train on VOC2007  
