@@ -48,7 +48,7 @@ b) train on VOC2007
 * The offered code is a castrated version. There could exist some bugs. Running the given script is fine.  
 
 c) SpliceMix pre-training on ImageNet  
-   The pre-training model using SpliceMix trained on ImageNet is also available at https://drive.google.com/drive/folders/1VwKrEqAYYE9m7raVMwhyza9Fwjy9slCS?usp=sharing . It can be easily loaded to ResNet in PyTorch, such as   
+   The pre-training model using SpliceMix trained on ImageNet is also available at https://drive.google.com/drive/folders/1VwKrEqAYYE9m7raVMwhyza9Fwjy9slCS?usp=sharing. It can be easily loaded to ResNet in PyTorch, such as   
 ```python
 ResNet = torchvision.models.resnet101(pretrained=false)
 file = r'checkpoint/ImageNet_ResNet101_SpliceMix_te79.912_E163.pth.tar'
