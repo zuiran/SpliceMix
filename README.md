@@ -44,8 +44,8 @@ b) train on VOC2007
 ./launch.sh -m SpliceMix-CL -mixer SpliceMix--Default=True -ds VOC2007 -lr .01 -bs 16 -cd 0 -P 17837 --disable-amp -rmk SpliceMix--Default=True
 ```
 
-    * -rmk is optional for checkpoint folder suffix.  
-    * The offered code is a castrated version. There could exist some bugs. Running the given script is fine.  
+* -rmk is optional for checkpoint folder suffix.  
+* The offered code is a castrated version. There could exist some bugs. Running the given script is fine.  
 
 c) SpliceMix pre-training on ImageNet  
    The pre-training model using SpliceMix trained on ImageNet is also available at https://drive.google.com/drive/folders/1VwKrEqAYYE9m7raVMwhyza9Fwjy9slCS?usp=sharing . It can be easily loaded to ResNet in PyTorch, such as   
