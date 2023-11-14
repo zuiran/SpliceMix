@@ -25,7 +25,7 @@
 ```
 
 3. Run script:  
-    It is recommended to run the code by 'launch.py'.
+    It is recommended to run the code by 'launch.py'.  
 a.1) train on MS-COCO
    
 ```shell
