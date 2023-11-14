@@ -41,7 +41,7 @@
 ./launch.sh -m ResNet-101 -ds MS-COCO -bs 32 -cd 0 -e 0 -P 17837 -r checkpoint/SpliceMix_CL.pt -rmk SpliceMix  
 ```
 
-    b) train on VOC2007  
+b) train on VOC2007  
     
 ```
 ./launch.sh -m ResNet-101 -mixer SpliceMix--Default=True -ds VOC2007 -lr .01 -bs 16 -cd 0 -P 17837 --disable-amp -rmk SpliceMix--Default=True
