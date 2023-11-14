@@ -3,7 +3,7 @@
 1. The code of our SpliceMix and SpliceMix-CL methods are put to ./SpliceMix.py and ./models/SpliceMix_CL.py, respectively.
 
 2. Please download data sets by yourself and follow the below structure to unzip files. Then modify 'args.data_root' to DATA_ROOT.
-```
+\```
     Data root structure:
         DATA_ROOT
             --COCO2014
@@ -22,7 +22,7 @@
                         --JPEGImages
                             --...
                 --...
-```
+\```
 
 3. Run script:  
     It is recommended to run the code by 'launch.py'.  
@@ -32,7 +32,7 @@
 ./launch.sh -m ResNet-101 -mixer SpliceMix--Default=True -ds MS-COCO -lr .05 -wup 3 -bs 32 -cd 0 1 -P 17837 -rmk SpliceMix--Default=True
 ./launch.sh -m SpliceMix-CL -mixer SpliceMix--Default=True -ds MS-COCO -lr .05 -wup 3 -bs 32 -cd 0 1 -P 17837 -rmk SpliceMix--Default=True
 ```
----
+
       2) inference on MS-COCO  
          The pre-training weight of 'ResNet-101+SpliceMix' and 'ResNet-101+SpliceMix-CL' on MS-COCO is available at  https://drive.google.com/drive/folders/1VwKrEqAYYE9m7raVMwhyza9Fwjy9slCS?usp=sharing.  
 	 
