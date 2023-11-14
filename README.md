@@ -31,13 +31,13 @@
                 --...
 ```
 
-3. Run script:  
+3. Run script:
 It is recommended to run the code by 'launch.py'.
 a.1) train on MS-COCO
 ```shell
 ./launch.sh -m ResNet-101 -mixer SpliceMix--Default=True -ds MS-COCO -lr .05 -wup 3 -bs 32 -cd 0 1 -P 17837 -rmk SpliceMix--Default=True
-./launch.sh -m SpliceMix-CL -mixer SpliceMix--Default=True -ds MS-COCO -lr .05 -wup 3 -bs 32 -cd 0 1 -P 17837 -rmk SpliceMix--Default=True  
-```  
+./launch.sh -m SpliceMix-CL -mixer SpliceMix--Default=True -ds MS-COCO -lr .05 -wup 3 -bs 32 -cd 0 1 -P 17837 -rmk SpliceMix--Default=True
+```
 a.2) inference on MS-COCO  
      The pre-training weight of 'ResNet-101+SpliceMix' and 'ResNet-101+SpliceMix-CL' on MS-COCO is available at https://drive.google.com/drive/folders/1VwKrEqAYYE9m7raVMwhyza9Fwjy9slCS?usp=sharing.  
 ```shell  
