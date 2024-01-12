@@ -71,9 +71,11 @@ del ckpt
 
 ### [.bib citation]
 cite the paper as follows (copied-pasted it from arxiv for you):
+```
 @article{wang2023splicemix,
   title={SpliceMix: A Cross-scale and Semantic Blending Augmentation Strategy for Multi-label Image Classification},
   author={Wang, Lei and Zhan, Yibing and Ma, Leilei and Tao, Dapeng and Ding, Liang and Gong, Chen},
   journal={arXiv preprint arXiv:2311.15200},
   year={2023}
 }
+```
