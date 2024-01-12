@@ -69,7 +69,7 @@ ResNet.load_state_dict(ckpt['state_dict'])
 del ckpt
 ```
 
-### .bib citation
+### [.bib citation]
 cite the paper as follows (copied-pasted it from arxiv for you):
 @article{wang2023splicemix,
   title={SpliceMix: A Cross-scale and Semantic Blending Augmentation Strategy for Multi-label Image Classification},
